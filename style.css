@@ -941,7 +941,8 @@ input[type="number"] {
 .ar .yvaa-header .details .side-info .info h1 span,
 .ar .yvaa-header .details .side-info .info h3 span,
 .ar .yvaa-section .section .main-feature .feature .details p span,
-.ar .nav-links .ara {
+.ar .nav-links .ara,
+.ar .footer .footy p span {
   font-family: "Maurea-BoldLf" !important;
 }
 .ar .yvaa-section .section .main-feature .feature .details p span {
