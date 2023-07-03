@@ -125,11 +125,20 @@ input {
   padding: 20px 0;
   
  }
+ .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+ }
  .nav-links a {
   color: var(--second-color);
   font-family: "Maurea-Light";
   font-weight: 600;
   transition: all 0.3s ease-in-out;
+ }
+ .nav-links .ara {
+  font-family: "GE-Dinar-One-Bold" !important;
  }
  /* LOGO */
  .logo {
@@ -931,7 +940,8 @@ input[type="number"] {
 .ar .yvaa-header.features .details p.counter-value,
 .ar .yvaa-header .details .side-info .info h1 span,
 .ar .yvaa-header .details .side-info .info h3 span,
-.ar .yvaa-section .section .main-feature .feature .details p span {
+.ar .yvaa-section .section .main-feature .feature .details p span,
+.ar .nav-links .ara {
   font-family: "Maurea-BoldLf" !important;
 }
 .ar .yvaa-section .section .main-feature .feature .details p span {
